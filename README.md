@@ -1443,8 +1443,6 @@ git-fetch-with-cli = true
 
 #### Mirrors
 
-- Tencent
-  - [https://mirrors.cloud.tencent.com/virtualbox/](https://mirrors.cloud.tencent.com/virtualbox/)
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/virtualbox/](https://mirrors.tuna.tsinghua.edu.cn/virtualbox/)
 - 北京外国语大学
