@@ -12,7 +12,7 @@ jobs:
         with:
             # Check all markdown and html files in repo (default)
             # 排除有反爬/限流策略、实际可用的站点，避免误报导致 PR 检查失败
-            args: --verbose --no-progress --max-redirects 3 --exclude 'dev\.mysql\.com' --exclude 'repo\.huaweicloud\.com/repository' README.md
+            args: --verbose --no-progress --timeout 30 --max-redirects 3 --exclude 'dev\.mysql\.com' --exclude 'repo\.huaweicloud\.com/repository' README.md
             # Fail action on broken links
             fail: true
         env:

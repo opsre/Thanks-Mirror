@@ -440,7 +440,7 @@ yum makecache
 - souhu
   - http://mirrors.sohu.com/centos/
 - 163：
-  - http://mirrors.163.com/centos/
+  - https://mirrors.163.com/centos/
 
 🔝[回到顶部](#thanks-mirror)
 
@@ -969,7 +969,7 @@ git-fetch-with-cli = true
 - 火山引擎
   - [https://mirrors.volces.com/mongodb/](https://mirrors.volces.com/mongodb/)
 - 163
-  - [http://mirrors.163.com/mongodb/](http://mirrors.163.com/mongodb/)
+  - [https://mirrors.163.com/mongodb/](https://mirrors.163.com/mongodb/)
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/mongodb/](https://mirrors.tuna.tsinghua.edu.cn/mongodb/)
 - 北京外国语大学
@@ -1163,7 +1163,7 @@ git-fetch-with-cli = true
 - 南京大学
   - [https://mirror.nju.edu.cn/github-release/prometheus/](https://mirror.nju.edu.cn/github-release/prometheus/)
 - 上海交通大学
-  - [https://mirror.sjtu.edu.cn/github-release/prometheus/?mirror_intel_list](https://mirror.sjtu.edu.cn/github-release/prometheus/?mirror_intel_list)
+  - [https://mirror.sjtu.edu.cn/github-release/prometheus/](https://mirror.sjtu.edu.cn/github-release/prometheus/)
     此地址下包含了 prometheus 应用体系的大部分软件，包含：
     - [alertmanager](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/alertmanager/mirror_clone_list.html)
     - [blackbox_exporter](https://s3.jcloud.sjtu.edu.cn/899a892efef34b1b944a19981040f55b-oss01/github-release/prometheus/blackbox_exporter/mirror_clone_list.html)
@@ -1308,7 +1308,7 @@ git-fetch-with-cli = true
 - HUAWEI
   - [https://repo.huaweicloud.com/ceph/](https://repo.huaweicloud.com/ceph/)
 - 163
-  - [http://mirrors.163.com/ceph/](http://mirrors.163.com/ceph/)
+  - [https://mirrors.163.com/ceph/](https://mirrors.163.com/ceph/)
 - 清华
   - [https://mirrors.tuna.tsinghua.edu.cn/ceph/](https://mirrors.tuna.tsinghua.edu.cn/ceph/)
 - 中科大
@@ -1473,7 +1473,7 @@ git-fetch-with-cli = true
 - 火山引擎
   - [https://mirrors.volces.com/centos/](https://mirrors.volces.com/centos/)
 - 163
-  - [http://mirrors.163.com/centos/](http://mirrors.163.com/centos/)
+  - [https://mirrors.163.com/centos/](https://mirrors.163.com/centos/)
 - Souhu
   - [http://mirrors.sohu.com/centos/](http://mirrors.sohu.com/centos/)
 - 北大
@@ -1545,7 +1545,7 @@ ARM 架构下的 CentOS 镜像。
 - 火山引擎
   - [https://mirrors.volces.com/ubuntu/](https://mirrors.volces.com/ubuntu/)
 - 163
-  - [http://mirrors.163.com/ubuntu/](http://mirrors.163.com/ubuntu/)
+  - [https://mirrors.163.com/ubuntu/](https://mirrors.163.com/ubuntu/)
 - Souhu
   - [http://mirrors.sohu.com/ubuntu/](http://mirrors.sohu.com/ubuntu/)
 - 北大
@@ -1589,7 +1589,7 @@ ARM 架构下的 CentOS 镜像。
 - 火山引擎
   - [https://mirrors.volces.com/debian/](https://mirrors.volces.com/debian/)
 - 163
-  - [http://mirrors.163.com/debian/](http://mirrors.163.com/debian/)
+  - [https://mirrors.163.com/debian/](https://mirrors.163.com/debian/)
 - Souhu
   - [http://mirrors.sohu.com/debian/](http://mirrors.sohu.com/debian/)
 - 北大
@@ -1630,7 +1630,7 @@ ARM 架构下的 CentOS 镜像。
 - HUAWEI
   - [https://repo.huaweicloud.com/deepin/](https://repo.huaweicloud.com/deepin/)
 - 163
-  - [http://mirrors.163.com/deepin/](http://mirrors.163.com/deepin/)
+  - [https://mirrors.163.com/deepin/](https://mirrors.163.com/deepin/)
 - Souhu
   - [http://mirrors.sohu.com/deepin/](http://mirrors.sohu.com/deepin/)
 - 清华
@@ -1671,7 +1671,7 @@ ARM 架构下的 CentOS 镜像。
 - 火山引擎
   - [https://mirrors.volces.com/fedora/](https://mirrors.volces.com/fedora/)
 - 163
-  - [http://mirrors.163.com/fedora/](http://mirrors.163.com/fedora/)
+  - [https://mirrors.163.com/fedora/](https://mirrors.163.com/fedora/)
 - Souhu
   - [http://mirrors.sohu.com/fedora/](http://mirrors.sohu.com/fedora/)
 - 清华
@@ -1758,7 +1758,7 @@ ARM 架构下的 CentOS 镜像。
 - HUAWEI
   - [https://repo.huaweicloud.com/gentoo/](https://repo.huaweicloud.com/gentoo/)
 - 163
-  - [http://mirrors.163.com/gentoo/](http://mirrors.163.com/gentoo/)
+  - [https://mirrors.163.com/gentoo/](https://mirrors.163.com/gentoo/)
 - Souhu
   - [http://mirrors.sohu.com/gentoo/](http://mirrors.sohu.com/gentoo/)
 - 清华
@@ -1882,7 +1882,7 @@ FreeBSD 中 pkg 源分为系统级和用户级两个配置文件。不建议直�
 
 ```
 163: {
-url: "pkg+http://mirrors.163.com/freebsd-pkg/${ABI}/quarterly",
+url: "pkg+https://mirrors.163.com/freebsd-pkg/${ABI}/quarterly",
 mirror_type: "srv",
 signature_type: "none",
 fingerprints: "/usr/share/keys/pkg",
@@ -1982,7 +1982,7 @@ FreeBSD: { enabled: no }
 
 写入以下内容:
 
-`MASTER_SITE_OVERRIDE?=http://mirrors.163.com/freebsd-ports/distfiles/${DIST_SUBDIR}/`
+`MASTER_SITE_OVERRIDE?=https://mirrors.163.com/freebsd-ports/distfiles/${DIST_SUBDIR}/`
 
 ###### 中国科学技术大学开源软件镜像站（该镜像不完整）
 
@@ -2019,7 +2019,7 @@ FreeBSD: { enabled: no }
 
 #### Official
 
-- [https://www.gnu.org/software/octave/download](https://www.gnu.org/software/octave/download)
+- [https://ftp.gnu.org/gnu/](https://ftp.gnu.org/gnu/)
 
 #### Mirrors
 
