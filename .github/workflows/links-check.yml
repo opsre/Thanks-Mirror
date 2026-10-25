@@ -22,7 +22,8 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
             # Check all markdown and html files in repo (default)
-            args: --verbose --no-progress --max-redirects 3 README.md
+            # 排除有反爬/限流策略、实际可用的站点，避免每期报告误报
+            args: --verbose --no-progress --max-redirects 3 --exclude 'dev\.mysql\.com' --exclude 'repo\.huaweicloud\.com/repository' README.md
 
       - name: Create Issue From File
         if: env.lychee_exit_code != 0
