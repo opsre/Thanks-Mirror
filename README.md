@@ -2241,20 +2241,27 @@ GitHub 相关的国内镜像，有不同的使用方式，这里仅列出目前�
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/thesixonenine">
+            <img src="https://avatars.githubusercontent.com/u/20450627?v=4" width="100;" alt="thesixonenine"/>
+            <br />
+            <sub><b>Simple</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/colinxu2020">
             <img src="https://avatars.githubusercontent.com/u/63941938?v=4" width="100;" alt="colinxu2020"/>
             <br />
             <sub><b>Colinxu2020</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/danbai225">
             <img src="https://avatars.githubusercontent.com/u/40517872?v=4" width="100;" alt="danbai225"/>
             <br />
             <sub><b>淡白</b></sub>
         </a>
-    </td></tr>
-<tr>
+    </td>
     <td align="center">
         <a href="https://github.com/Goojoe">
             <img src="https://avatars.githubusercontent.com/u/78355492?v=4" width="100;" alt="Goojoe"/>
